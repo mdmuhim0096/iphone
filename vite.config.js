@@ -8,6 +8,7 @@ export default defineConfig({
     org: "cdf-fc",
     project: "javascript-react"
   })],
+  base: "/iphone/",
   build: {
     sourcemap: true
   }
