@@ -4,11 +4,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), sentryVitePlugin({
-    org: "cdf-fc",
-    project: "javascript-react"
-  })],
-  base: "/iphone",
+  plugins: [react()],
+  base: "/iphone/",
   build: {
     sourcemap: true
   }
