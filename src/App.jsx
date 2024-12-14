@@ -3,7 +3,6 @@ import Hero from "./components/Hero";
 import Highlight from "./components/Highlight";
 import Model from "./components/Model";
 import Features from "./components/Features";
-import * as Sentry from "@sentry/react";
 import HowItWorks from "./components/HowItWorks";
 import Footer from "./components/Footer";
 
@@ -22,4 +21,4 @@ const App = () => {
   )
 }
 
-export default Sentry.withProfiler(App);
+export default App;
