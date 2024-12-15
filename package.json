@@ -1,7 +1,7 @@
 {
   "name": "last",
   "private": true,
-  "homepage": "https://mdmuhim0096.github.io/nnnn",
+  "homepage": "https://mdmuhim0096.github.io/iphone",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -12,6 +12,7 @@
     "lint": "eslint .",
     "preview": "vite preview"
   },
+
   "dependencies": {
     "@gsap/react": "^2.1.1",
     "@react-three/drei": "^9.115.0",
@@ -25,6 +26,7 @@
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.27.0"
   },
+  
   "devDependencies": {
     "@eslint/js": "^9.11.1",
     "@types/react": "^18.3.10",
